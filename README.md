@@ -9,6 +9,8 @@ This repository contains our implementation of the [distortion-agnostic watermar
 - [Data](#data)
 - [Training](#training)
 - [Evaluation](#evaluation)
+- [Baseline](#baseline)
+- [Channel Coding](#channel-coder)
 
 ## Installation
 
