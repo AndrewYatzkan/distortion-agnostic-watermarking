@@ -64,3 +64,10 @@ python evaluate.py
 This script will compute the bit accuracy for each distortion type and print out the results.
 
 For comparison, our non-neural baseline method, which uses a combination of Discrete Wavelet Transform, Discrete Cosine Transform, and Singular Value Decomposition, can be found at the following [notebook](https://colab.research.google.com/drive/1uHct2wArLriWFAdRIDGSdQmJ7Xa2W5DT?usp=sharing).
+
+## Channel Coder
+Although we ended up using it in limited capacity, we also trained and experimented with a neural channel coder to inject redundancy into watermark messages. 
+
+The architecture and training logic can be found at ```channel_coder.py``` and the testing at ```testing.py``` within the ```channel_coder``` directory.
+
+Simply run ```python channel_coder.py``` to train the model.
