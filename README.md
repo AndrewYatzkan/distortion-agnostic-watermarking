@@ -62,3 +62,5 @@ Evaluation measures the bit accuracy of encoded and decoded messages after apply
 python evaluate.py
 ```
 This script will compute the bit accuracy for each distortion type and print out the results.
+
+For comparison, our non-neural baseline method, which uses a combination of Discrete Wavelet Transform, Discrete Cosine Transform, and Singular Value Decomposition, can be found at the following [notebook](https://colab.research.google.com/drive/1uHct2wArLriWFAdRIDGSdQmJ7Xa2W5DT?usp=sharing)
